@@ -12,3 +12,22 @@ html {
   font-family: Karla;
   src: url(./assets/fonts/Karla-Regular.ttf);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  letter-spacing: 2px;
+  font-size: medium;
+}
